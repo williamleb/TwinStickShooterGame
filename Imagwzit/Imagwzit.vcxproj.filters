@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>{431d7978-790f-4c70-957e-adac61790c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites">
+      <UniqueIdentifier>{98301804-fd0a-496f-a1fb-dc1d7433066f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sons">
+      <UniqueIdentifier>{25adf7ed-4984-4b91-bce2-dc98fef79335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Polices">
+      <UniqueIdentifier>{cdbdfc3b-2cf7-4119-af09-384580584aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\FreeArt">
+      <UniqueIdentifier>{41f31c67-0d3b-45b0-87cf-3f709101e1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\ZombiesAndSurvivors">
+      <UniqueIdentifier>{e2161581-7036-412f-85c0-46a2b82addd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\Projectiles">
+      <UniqueIdentifier>{5a97e751-04a6-448f-96ac-ad3bff16c956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\Logos">
+      <UniqueIdentifier>{5cdbe3f2-9ca0-490f-a995-3d042b8ce4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\WeaponSelection">
+      <UniqueIdentifier>{cb8c4989-8746-4951-9220-72800131e117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\Help">
+      <UniqueIdentifier>{1d0095b3-583b-47d3-884f-57825941c7fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSphere.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Movable.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Activatable.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoPack.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreText.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMenu.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSphere.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Movable.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Activatable.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileType.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoPack.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponType.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieState.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreText.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMenu.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Polices\segoepr.ttf">
+      <Filter>Ressources\Polices</Filter>
+    </Font>
+    <Font Include="Polices\zombie.otf">
+      <Filter>Ressources\Polices</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sons\i_maed_a_gam3_w1th_z0mb1es_full_song.ogg">
+      <Filter>Ressources\Sons</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\Terrain.jpg">
+      <Filter>Ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Zombie1.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Zombie2.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Zombie3.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Joueur.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie1.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie2.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie3.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie4.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor1.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor2.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor3.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor4.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Bullet.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Flame.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Missile.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Scatter.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\FlameLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\MissileLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\ScatterLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\BulletLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\WeaponSelection\HandGun.png">
+      <Filter>Ressources\Sprites\WeaponSelection</Filter>
+    </Image>
+    <Image Include="Sprites\Help\KeyboardAndMouseHelp.png">
+      <Filter>Ressources\Sprites\Help</Filter>
+    </Image>
+    <Image Include="Sprites\Help\ControllerHelp.png">
+      <Filter>Ressources\Sprites\Help</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
